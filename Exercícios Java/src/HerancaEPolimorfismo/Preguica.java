@@ -12,4 +12,9 @@ public class Preguica extends Animal {
 		this.sobeArvore = sobeArvore;
 	}
 
+	@Override
+	public void emitirSom() {
+		System.out.println("Zzzzz...");
+	}
+
 }

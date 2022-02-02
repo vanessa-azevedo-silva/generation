@@ -4,7 +4,6 @@ public class Animal {
 
 	private String nome;
 	private int idade;
-	private boolean emiteSom;
 
 	public String getNome() {
 		return nome;
@@ -22,12 +21,9 @@ public class Animal {
 		this.idade = idade;
 	}
 
-	public boolean isEmiteSom() {
-		return emiteSom;
-	}
-
-	public void setEmiteSom(boolean emiteSom) {
-		this.emiteSom = emiteSom;
+	
+	public void emitirSom() {
+		System.out.println("Som genérico");
 	}
 
 }

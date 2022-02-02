@@ -12,4 +12,9 @@ public class Cachorro extends Animal {
 		this.corre = corre;
 	}
 
+	@Override
+	public void emitirSom() {
+		System.out.println("Au, au, au...");
+	}
+
 }
