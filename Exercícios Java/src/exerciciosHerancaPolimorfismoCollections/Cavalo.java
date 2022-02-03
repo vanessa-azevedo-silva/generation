@@ -1,4 +1,4 @@
-package HerancaEPolimorfismo;
+package exerciciosHerancaPolimorfismoCollections;
 
 public class Cavalo extends Animal {
 
