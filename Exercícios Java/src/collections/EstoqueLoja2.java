@@ -1,4 +1,4 @@
-package exerciciosHerancaPolimorfismoCollections;
+package collections;
 
 import java.util.ArrayList;
 
@@ -6,12 +6,12 @@ public class EstoqueLoja2 {
 
 	public static void main(String[] args) {
 
-		EstoqueLoja e1 = new EstoqueLoja("Tênis", "Adidas", 360);     // índice 0
-		EstoqueLoja e2 = new EstoqueLoja("Sandália", "Vizzano", 220); // índice 1
-		EstoqueLoja e3 = new EstoqueLoja("Sapatilha", "Dakota", 100); // índice 2
-		EstoqueLoja e4 = new EstoqueLoja("Scarpin", "Via Marte", 80); // índice 3
+		Estoque e1 = new Estoque("Tênis", "Adidas", 360);     // índice 0
+		Estoque e2 = new Estoque("Sandália", "Vizzano", 220); // índice 1
+		Estoque e3 = new Estoque("Sapatilha", "Dakota", 100); // índice 2
+		Estoque e4 = new Estoque("Scarpin", "Via Marte", 80); // índice 3
 
-		ArrayList<EstoqueLoja> estoque = new ArrayList<>();
+		ArrayList<Estoque> estoque = new ArrayList<>();
 
 		estoque.add(e1); // Armazenando dados da lista
 		estoque.add(e2);

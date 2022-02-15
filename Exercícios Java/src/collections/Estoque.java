@@ -1,11 +1,11 @@
-package exerciciosHerancaPolimorfismoCollections;
+package collections;
 
-public class EstoqueLoja {
+public class Estoque {
 	
 	private String tipoSapato, marca;
 	private int quantidade;
 	
-	public EstoqueLoja(String x, String m, int n) {
+	public Estoque(String x, String m, int n) {
 		this.tipoSapato=x;
 		this.marca=m;
 		this.quantidade=n;
