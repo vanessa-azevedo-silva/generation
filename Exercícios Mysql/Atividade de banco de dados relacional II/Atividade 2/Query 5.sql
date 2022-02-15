@@ -1,0 +1,1 @@
+select * from tb_pizza where preco between 29.00 and 60.00

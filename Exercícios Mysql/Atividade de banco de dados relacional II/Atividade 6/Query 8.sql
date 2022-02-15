@@ -1,0 +1,1 @@
+select * from tb_curso where fk_curso = 1

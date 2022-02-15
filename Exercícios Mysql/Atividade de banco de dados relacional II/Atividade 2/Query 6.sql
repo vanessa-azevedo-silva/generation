@@ -1,0 +1,1 @@
+select * from tb_pizza where sabores LIKE "%c%"
