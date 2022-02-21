@@ -1,0 +1,20 @@
+{
+	"info": {
+		"_postman_id": "153a4b92-a32a-4674-8ae0-0ea4f76d96c9",
+		"name": "Hallo World",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	]
+}
